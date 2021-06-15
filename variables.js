@@ -8,6 +8,5 @@ var favoriteFoods = ['pho', 'KBBQ', 'Sushi'];
 favoriteFoods.shift();
 
 //Write a line of code that prints how many characters there are in the *movie* string.
-var thing = 'movie';
-var length = text.split( '' ).filter( c => c != ' ' ).length;
-console.log( movie );
+var length = movie.split( '' ).filter( c => c != ' ' ).length;
+console.log(length);
